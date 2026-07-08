@@ -20692,7 +20692,6 @@ components:
           format: int64
     ServiceTogglesConfig:
       required:
-      - agentInsightsEnabled
       - agenticToolsEnabled
       - alertsEnabled
       - anthropicProviderEnabled
@@ -20770,8 +20769,6 @@ components:
         projectHomepageEnabled:
           type: boolean
         agenticToolsEnabled:
-          type: boolean
-        agentInsightsEnabled:
           type: boolean
         onlineScoringTracingEnabled:
           type: boolean
